@@ -1,5 +1,5 @@
 ##OPEN API STUFF
-OPENAI_API_KEY = 'enter-api-key'
+OPENAI_API_KEY = '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'
 
 
 
@@ -9,7 +9,7 @@ class Config(object):
     TESTING = False
 
 class DevelopmentConfig(Config):
-    SECRET_KEY = "this-is-a-super-secret-key"
+    SECRET_KEY = "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"
 
 
 config = {
